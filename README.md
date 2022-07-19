@@ -1,13 +1,13 @@
 # Restaurant_List Work
 
-One Paragraph of project description goes here
+
 
 ## 環境建置與需求 (prerequisites)：
 
-**Node.js @16.16.0
-**Express.js @4.16.4
-**express-handlebars @3.0.0
-**Bootstrap @5.1.3
+* Node.js @16.16.0
+* Express.js @4.16.4
+* express-handlebars @3.0.0
+* Bootstrap @5.1.3
 
 ## 安裝與執行步驟 (installation and execution)：
 
