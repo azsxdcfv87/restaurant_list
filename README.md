@@ -13,7 +13,9 @@
 
 如何啟動你的專案，除了 express install，通常會對應到你在 package.json 設定的腳本，例如 npm run dev。
 ```
-Give examples
+安裝 Node.js 以及 npm
+下載檔案到您的本地位置
+進入終端機，並且安裝 npm
 ```
 
 ## 功能描述 (features)
