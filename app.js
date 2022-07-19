@@ -25,19 +25,19 @@ app.get('/restaurants/:restaurant_id', (req, res) => {
   res.render('show', { restaurant: restaurant })
 })
 // 使用者可以透過搜尋餐廳名稱來找到特定的餐廳
+// 使用者可以透過搜尋餐廳類別來找到特定的餐廳
 app.get('/search', (req, res) => {
-  console.log(req.query.keyword)
-  if (!req.query.keywords) {
-    res.redirect("/")
-  }
+  // console.log(req.query.keyword)
   const keyword = req.query.keyword
-  // const keyword = req.query.keywords.trim().toLowerCase()
+  if (!keyword) {
+    res.redirect("/")
+    return;
+  }
   const filterRestaurants = restaurantList.filter(restaurant => {
     return restaurant.name.toLowerCase().includes(keyword.toLowerCase()) || restaurant.category.toLowerCase().includes(keyword.toLowerCase())
   })
   res.render('index', { restaurantList: filterRestaurants, keyword: keyword })
 })
-// 使用者可以透過搜尋餐廳類別來找到特定的餐廳
 
 
 // 設定網址位置
