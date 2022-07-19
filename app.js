@@ -12,7 +12,7 @@ app.set('view engine', 'handlebars')
 app.use(express.static('public'))
 // 1. 使用者可以在首頁看到所有餐廳與它們的簡單資料：
 // 餐廳照片 餐廳名稱 餐廳分類 餐廳評分
-// 以下為各種網址請求位置
+// 以下為網址請求位置
 // 動態產生餐廳資料
 app.get('/', (req, res) => {
   res.render('index', { restaurantList })
