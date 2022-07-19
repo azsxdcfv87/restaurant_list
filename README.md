@@ -17,16 +17,20 @@ Give examples
 
 ## 功能描述 (features)
 
-你所完成的功能。如果功能太多，可以只說明重點功能。
+(1) 使用者可以在首頁看到所有餐廳與它們的簡單資料：
 
-```
-Give the example
-```
+1. 餐廳照片
+2. 餐廳名稱
+3. 餐廳分類
+4. 餐廳評分
 
-And repeat
+(2) 使用者可以再點進去看餐廳的詳細資訊：
 
-```
-until finished
-```
+1. 類別
+2. 地址
+3. 電話
+4. 描述
+5. 圖片
 
-End with an example of getting some data out of the system or using it for a little demo
+(3) 使用者可以透過搜尋餐廳名稱以及餐廳類別來找到特定的餐廳
+
